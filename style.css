@@ -134,6 +134,7 @@ a {
 }
 
 a:hover {
+    color: #e74c3c;
     text-decoration: underline;
 }
 
@@ -341,12 +342,14 @@ p {
 }
 
 .post-navigation {
+    border-top: solid 1px #bdc3c7;
+    border-bottom: solid 1px #bdc3c7;
     margin: 2em 0;
-    border: 2px solid #34495e;
 }
 
 .post-navigation div {
     width: 50%;
+    font-size: 1.2em;
 }
 
 .post-navigation a {
@@ -356,15 +359,12 @@ p {
 }
 
 .post-navigation .alignright a {
-    border-left: 2px solid #34495e;
     text-align: right;
 }
 
 .post-navigation a:hover {
-    background: none #2c3e50;
-    color: #FFF;
+    color: #e74c3c;
     text-decoration: none;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 /***************************************
