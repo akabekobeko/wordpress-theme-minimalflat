@@ -515,9 +515,6 @@ p {
 .wp-caption-text,
 .gallery-caption {
     margin: 0.5em;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-    font-weight: bold;
-    font-size: 0.9em;
     text-align: center;
 }
 
