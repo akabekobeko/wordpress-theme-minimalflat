@@ -102,10 +102,6 @@ tr:nth-child(even) td {
     background: none #f8f8f8;
 }
 
-td+td, th+th {
-    /*border-left: 1px solid #34495E;*/
-}
-
 blockquote {
     padding: 0 1em;
     border: 2px solid #34495E;
@@ -162,13 +158,12 @@ a:hover {
 .site-title a {
     color: #FFF;
     text-decoration: none;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 .site-description {
     margin: 0;
     color: #EFEFEF;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
     font-size: 0.8em;
+    font-weight: normal;
 }
 
 .site-navigation {
@@ -196,8 +191,6 @@ a:hover {
     padding: 0 1.2125em;
     color: #eee;
     text-decoration: none;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-    font-weight: bold;
     font-size: 0.8em;
     line-height: 2em;
 }
