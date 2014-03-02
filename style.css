@@ -389,8 +389,7 @@ p {
 .comment-body {
     margin-top: 1em;
     padding: 0.5em;
-    border-radius: .2em;
-    background-color: #d1d8dc;
+    background-color: #ecf0f1;
 }
 
 .bypostauthor > .comment-body {
@@ -428,17 +427,16 @@ p {
 
 .comment-form input[type='submit'] {
     padding: .5em 2em;
-    background: none #3498db;
-    border: 1px solid #3498db;
+    background: none #e74c3c;
+    border: 1px solid #e74c3c;
     border-radius: .2em;
-    color: #FEFEFE;
-    font-weight: bold;
-
+    color: #fff;
+    box-shadow: 0px 4px 0px 0px #c0392b;
 }
 
 .comment-form input[type='submit']:hover {
-    background: none #2980b9;
-    border: 1px solid #2980b9;
+    background: none #c0392b;
+    border: 1px solid #c0392b;
 }
 
 .comment-form p {
