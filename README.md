@@ -18,6 +18,9 @@ How to install the theme is as follows.
 $ cd wp-content/themes
 $ git clone git://github.com/akabekobeko/wordpress-theme-minimalflat.git minimalflat 
 ```
+## Screenshots
+
+![minimalflat](screenshot.png)
 
 ## License
 

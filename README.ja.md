@@ -18,6 +18,9 @@
 $ cd wp-content/themes
 $ git clone git://github.com/akabekobeko/wordpress-theme-minimalflat.git minimalflat 
 ```
+## スクリーンショット
+
+![minimalflat](screenshot.png)
 
 ## ライセンス
 
