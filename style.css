@@ -331,9 +331,8 @@ a:hover {
 }
 
 p {
-    text-indent: 1em;
     line-height: 1.7em;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.07em;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
 }
