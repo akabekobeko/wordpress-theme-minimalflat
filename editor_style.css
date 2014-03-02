@@ -1,0 +1,153 @@
+
+@charset "UTF-8";
+@import url('normalize.css');
+@import url('//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css');
+
+/***************************************
+                 Common
+ **************************************/
+
+#tinymce {
+	color: #34495E;
+	padding: 0 5%;
+}
+
+table {
+	margin: 1em 0;
+	width: 100%;
+	border: 2px solid #34495E;
+	border-collapse: collapse;
+}
+
+th {
+	padding: 0.3em 0.5em;
+	border: 2px solid #34495E;
+	background: none #7f8c8d;
+	background: none rgba(127,140, 141, 0.8);
+	color: #FEFEFE;
+}
+
+td {
+	padding: 0.3em;
+	border: 2px solid #34495E;
+	background: none #FFF;
+}
+
+p {
+	text-indent: 1em;
+}
+
+blockquote {
+	padding: 1em;
+	border: 2px solid #34495E;
+	border-radius: 6px;
+	background: none #F4F6F6;
+}
+
+blockquote cite:before {
+	color: #34495E;
+	content: '\f10d\ ';
+	font-family: 'FontAwesome';
+}
+
+blockquote cite:after {
+	color: #34495E;
+	content: '\ \f10e';
+	font-family: 'FontAwesome';
+}
+
+
+blockquote cite {
+	display: block;
+	text-align: right;
+	font-size: 0.8em;
+}
+
+a {
+	color: #1982D1;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.clear {
+	clear: both;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+/***************************************
+                 Post
+ **************************************/
+
+h2 {
+	padding-left: 8px;
+	border-left: 16px solid #c0392b;
+}
+
+h3 {
+	padding-left: 8px;
+	border-left: 16px double #c0392b;
+}
+
+h4 {
+	padding-left: 8px;
+	border-left: 5px solid #c0392b;
+}
+
+p {
+	letter-spacing: 0.05em;
+}
+
+/***************************************
+              WordPress
+ **************************************/
+
+.wp-caption {
+	margin: 1.5em;
+}
+
+.wp-caption img {
+	border: solid 8px #FFF;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.wp-caption-text,
+.gallery-caption {
+	margin: 0.5em;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	font-weight: bold;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.sticky {
+}
+
+/***************************************
+           WordPress Plugin
+ **************************************/
+
+.syntaxhighlighter {
+	border: solid 1px #AAA;
+}
+
