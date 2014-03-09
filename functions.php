@@ -85,7 +85,7 @@ function mytheme_comment( $comment, $args, $depth )
     <li <?php comment_class(); ?> id="li-comment-<?php comment_ID() ?>">
     <div id="comment-<?php comment_ID(); ?>" class="comment-body">
         <?php echo get_avatar( $comment, 44 ); ?>
-        <?php printf( __( '<cite class="fn">%s</cite>' ), get_comment_author_link()) ?>
+        <?php printf( '<cite class="fn">%s</cite>', get_comment_author_link()) ?>
         <div class="comment-meta">
             <?php printf( '%1$s', get_comment_date() . ' ' . get_comment_time() ) ?><?php edit_comment_link( __( 'Edit', 'akabeko2013' ),'  ','' ) ?>
         </div>
