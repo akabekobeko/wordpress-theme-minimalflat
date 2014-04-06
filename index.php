@@ -24,8 +24,8 @@ while( have_posts() ) : the_post(); ?>
 <?php endwhile;
 else : ?>
             <article class="post">
-                <h2><?php __( 'No posts found', 'akabeko2013' ); ?></h2>
-                <p><?php __( 'Posts you are looking for was not found.', 'akabeko2013' ); ?></p>
+                <h2><?php __( 'No posts found', 'minimalflat' ); ?></h2>
+                <p><?php __( 'Posts you are looking for was not found.', 'minimalflat' ); ?></p>
             </article>
 <?php endif; ?>
 

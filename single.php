@@ -14,7 +14,7 @@ while( have_posts() ) : the_post(); ?>
                         <i class="fa fa-comment"></i> <span class="comment-num"><?php comments_popup_link( '0','1','%','','-' ); ?></span>
                         <i class="fa fa-folder" title="category"></i> <?php the_category( ', ' ); ?> 
                         <i class="fa fa-tags" title="tags"></i> <?php the_tags( '', ', ' ); ?>
-                        <?php edit_post_link( __( 'Edit', 'akabeko2013' ), '<i class="fa fa-pencil-square"></i> ', '' ); ?> 
+                        <?php edit_post_link( __( 'Edit', 'minimalflat' ), '<i class="fa fa-pencil-square"></i> ', '' ); ?> 
                     </div>
                 </div>
 
@@ -41,8 +41,8 @@ while( have_posts() ) : the_post(); ?>
 <?php endwhile;
 else : ?>
             <article class="post">
-                <h2><?php __( 'No posts found', 'akabeko2013' ); ?></h2>
-                <p><?php __( 'Posts you are looking for was not found.', 'akabeko2013' ); ?></p>
+                <h2><?php __( 'No posts found', 'minimalflat' ); ?></h2>
+                <p><?php __( 'Posts you are looking for was not found.', 'minimalflat' ); ?></p>
             </article>
 <?php endif; ?>
 

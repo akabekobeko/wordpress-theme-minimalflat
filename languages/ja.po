@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: akabeko2013\n"
-"POT-Creation-Date: 2014-03-09 14:37+0900\n"
-"PO-Revision-Date: 2014-03-09 14:37+0900\n"
+"POT-Creation-Date: 2014-04-06 11:07+0900\n"
+"PO-Revision-Date: 2014-04-06 11:27+0900\n"
 "Last-Translator: \n"
 "Language-Team: Akabeko\n"
 "Language: ja\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../comments.php:30 ../functions.php:97
+#: ../comments.php:30 ../functions.php:98
 msgid "Reply"
 msgstr "返信"
 
@@ -47,11 +47,11 @@ msgstr "サイドバー"
 msgid "Suderbar area"
 msgstr "サイドバー エリア"
 
-#: ../functions.php:90 ../page.php:15 ../single.php:17
+#: ../functions.php:91 ../page.php:15 ../single.php:17
 msgid "Edit"
 msgstr "編集"
 
-#: ../functions.php:93
+#: ../functions.php:94
 msgid "Pending"
 msgstr "承認待ち"
 

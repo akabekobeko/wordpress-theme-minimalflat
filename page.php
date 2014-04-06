@@ -12,7 +12,7 @@ while( have_posts() ) : the_post(); ?>
                     <div class="post-meta">
                         <i class="fa fa-clock-o"></i> <span class="post-date"><a href="<?php the_permalink(); ?>"><?php echo get_the_date(); ?></a></span>
                         <i class="fa fa-comment"></i> <span class="comment-num"><?php comments_popup_link( '0','1','%','','-' ); ?></span>
-                        <?php edit_post_link( __( 'Edit', 'akabeko2013' ), '<i class="fa fa-pencil-square"></i> ', '' ); ?>
+                        <?php edit_post_link( __( 'Edit', 'minimalflat' ), '<i class="fa fa-pencil-square"></i> ', '' ); ?>
                     </div>
                 </div>
 
@@ -24,8 +24,8 @@ while( have_posts() ) : the_post(); ?>
 <?php endwhile;
 else : ?>
             <article class="post">
-                <h2><?php __( 'No pages found', 'akabeko2013' ); ?></h2>
-                <p><?php __( 'Pages you are looking for was not found.', 'akabeko2013' ); ?></p>
+                <h2><?php __( 'No pages found', 'minimalflat' ); ?></h2>
+                <p><?php __( 'Pages you are looking for was not found.', 'minimalflat' ); ?></p>
             </article>
 <?php endif; ?>
 
