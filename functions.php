@@ -1,6 +1,6 @@
 <?php
 
-load_theme_textdomain( 'akabeko2013', get_template_directory() . '/languages' );
+load_theme_textdomain( 'minimalflat', get_template_directory() . '/languages' );
 
 // Require: Content width
 if( ! isset( $content_width ) ) { $content_width = 640; }
@@ -15,9 +15,9 @@ add_theme_support( 'post-thumbnails' );
 add_editor_style( 'editor_style.css' );
 
 // Reccomended: Sidebar
-register_sidebar( array( 'name'          => __( 'Sidebar', 'akabeko2013' ),
+register_sidebar( array( 'name'          => __( 'Sidebar', 'minimalflat' ),
                          'id'            => 'sidebar-1',
-                         'description'   => __( 'Suderbar area', 'akabeko2013' ),
+                         'description'   => __( 'Suderbar area', 'minimalflat' ),
                          'before_widget' => '<div id="%1$s" class="widget %2$s">',
                          'after_widget'  => '</div>' )
 );
@@ -40,9 +40,10 @@ add_theme_support( 'custom-header',
  */
 function mytheme_stylesheets()
 {
-    wp_enqueue_style( 'font-awesome',     '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css' );
-    wp_enqueue_style( 'normalize',         get_template_directory_uri() . '/normalize.css' );
-    wp_enqueue_style( 'akabeko2013-style', get_stylesheet_uri() );
+    $cssDir = get_template_directory_uri() . "/css/";
+    wp_enqueue_style( 'font-awesome',      $cssDir . 'font-awesome.min.css' );
+    wp_enqueue_style( 'normalize',         $cssDir . 'normalize.css' );
+    wp_enqueue_style( 'minimalflat-style', get_stylesheet_uri() );
 }
 add_action( 'wp_print_styles', 'mytheme_stylesheets' );
 
@@ -87,14 +88,14 @@ function mytheme_comment( $comment, $args, $depth )
         <?php echo get_avatar( $comment, 44 ); ?>
         <?php printf( '<cite class="fn">%s</cite>', get_comment_author_link()) ?>
         <div class="comment-meta">
-            <?php printf( '%1$s', get_comment_date() . ' ' . get_comment_time() ) ?><?php edit_comment_link( __( 'Edit', 'akabeko2013' ),'  ','' ) ?>
+            <?php printf( '%1$s', get_comment_date() . ' ' . get_comment_time() ) ?><?php edit_comment_link( __( 'Edit', 'minimalflat' ),'  ','' ) ?>
         </div>
         <?php if( $comment->comment_approved == '0') : ?>
-            <p class="wait"><?php _e( 'Pending', 'akabeko2013' ) ?></p>
+            <p class="wait"><?php _e( 'Pending', 'minimalflat' ) ?></p>
         <?php endif; ?>
         <?php comment_text() ?>
         <div class="reply">
-            <?php comment_reply_link( array_merge( $args, array( 'reply_text' => __( 'Reply', 'akabeko2013' ) . ' <i class="fa fa-reply"></i>', 'depth' => $depth, 'max_depth' => $args['max_depth'] ) ) ) ?>
+            <?php comment_reply_link( array_merge( $args, array( 'reply_text' => __( 'Reply', 'minimalflat' ) . ' <i class="fa fa-reply"></i>', 'depth' => $depth, 'max_depth' => $args['max_depth'] ) ) ) ?>
         </div>
     </div>
 <?php }
