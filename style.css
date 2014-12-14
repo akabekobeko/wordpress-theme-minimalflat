@@ -337,6 +337,11 @@ p {
     margin-bottom: 1.5em;
 }
 
+pre {
+    background-color: #ecf0f1;
+    padding: .5em;
+}
+
 .post-navigation {
     border-top: solid 1px #34495e;
     border-bottom: solid 1px #34495e;
