@@ -540,7 +540,7 @@ p {
  **************************************/
 
 .syntaxhighlighter {
-    border: solid 1px #AAA;
+    padding: .5em 0;
 }
 
 img#wpstats {
